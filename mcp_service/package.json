@@ -1,13 +1,24 @@
 {
   "name": "mcp_service",
-  "version": "1.0.0",
-  "description": "Servidor MCP que delega ao serviço de RAG",
-  "main": "server.js",
+  "version": "2.0.0",
+  "description": "Servidor MCP (TypeScript) — delega ao RAG e executa ferramentas externas (busca web)",
+  "main": "dist/server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "start:ts": "tsx server.ts",
+    "dev": "tsx watch server.ts",
+    "build": "tsc",
+    "start:build": "node dist/server.js"
   },
   "dependencies": {
     "express": "^4.19.2",
-    "axios": "^1.7.2"
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "tsx": "^4.19.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.0"
   }
 }
