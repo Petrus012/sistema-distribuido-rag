@@ -32,9 +32,7 @@ Na Fase 3, o ecossistema migrou de uma estrutura de acoplamento parcial para uma
   ├── historico_service/   # Microsserviço de persistência de contexto (Python)
   ├── ia_service/          # Microsserviço de isolamento da camada de LLM (Python)
   ├── mcp_service/         # Servidor de ferramentas em Model Context Protocol (TypeScript)
-  ├── rag_service/         # Engine de busca vetorial e banco persistido ChromaDB (Python)
-  ├── arquitetura_fase3.jpg # Diagrama técnico atualizado do ecossistema distribuído
-  └── codigos_colab.pdf    # Scripts de automação e provisionamento da GPU na nuvem
+  └── rag_service/         # Engine de busca vetorial e banco persistido ChromaDB (Python)
 ```
 
 ---
