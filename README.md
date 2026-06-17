@@ -65,13 +65,18 @@ flowchart TD
 
 ```bash
 /
-  ├── api_gateway/         # Roteamento central e orquestração de chamadas (Node.js)
-  ├── documentos/          # Base de conhecimento (PDFs e manuais institucionais)
-  ├── frontend/            # Interface web SPA do estudante (React + TS)
-  ├── historico_service/   # Microsserviço de persistência de contexto (Python)
-  ├── ia_service/          # Microsserviço de isolamento da camada de LLM (Python)
-  ├── mcp_service/         # Servidor de ferramentas em Model Context Protocol (TypeScript)
-  └── rag_service/         # Engine de busca vetorial e banco persistido ChromaDB (Python)
+  ├── api_gateway/           # Roteamento central e orquestração de chamadas (Node.js)
+  ├── documentos/            # Base de conhecimento (PDFs e manuais institucionais)
+  ├── frontend/              # Interface web SPA do estudante (React + TS)
+  ├── historico_service/     # Microsserviço de persistência de contexto (Python)
+  ├── ia_service/            # Microsserviço de isolamento da camada de LLM (Python)
+  ├── mcp_service/           # Servidor de ferramentas em Model Context Protocol (TypeScript)
+  ├── rag_service/           # Engine de busca vetorial e banco persistido ChromaDB (Python)
+  ├── arquitetura_fase3.jpg  # Diagrama visual da arquitetura
+  ├── codigos_colab.pdf      # Instruções para subir o LLM (Qwen) no Google Colab
+  ├── Relatório.pdf          # Relatório do trabalho
+  ├── Documentacão.pdf       # Documentação técnica do projeto
+  └── README.md              # Este arquivo
 ```
 
 ---
